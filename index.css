@@ -1,9 +1,13 @@
 body {
-    font-family: 'Raleway', serif;
+  font-family: 'Raleway', serif;
   text-align: center;
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -83,11 +87,15 @@ button:hover {
 #certificateContent {
   font-family: 'Raleway', serif;
   color: #333;
-  padding: 20px;
+  padding: 25px;
   background-color: #f9f9f9;
   border: 2px solid #dc7f5f;
   border-radius: 10px;
   margin: 20px 0;
+}
+
+#certificateContent > img {
+  width: 500px;
 }
 
 h1, .modal-content h2, .modal-content p {
@@ -95,6 +103,7 @@ h1, .modal-content h2, .modal-content p {
 }
 
 .close {
+  cursor: pointer;
   color: #dc7f5f;
 }
 
